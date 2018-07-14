@@ -1,4 +1,46 @@
+/* Mobile first design */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #dadada;
   font-size: 10px;
+}
+
+.container {
+  margin: 20px auto;
+  width: 90%;
+}
+
+div {
+  float: left;
+  margin: 1% 0;
+  width: 100%;
+  padding: 20px 25px;
+}
+
+img {
+  height: 60%;
+  width: 100%;
+}
+
+img.baku {
+  width: 96%;
+}
+
+/* Media Querie for tablets and large smartphones */
+@media screen and (min-width: 575px) {
+  div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+/* Media Querie for laptops */
+@media screen and (min-width: 991px) {
+  div {
+    margin: 1%;
+    width: 23%;
+  }
 }
