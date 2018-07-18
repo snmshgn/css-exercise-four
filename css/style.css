@@ -13,20 +13,35 @@ body {
   width: 90%;
 }
 
+.preview-baku {
+  background-image: url(https://github.com/designhawg/css-exercise-four/blob/master/images/baku.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.preview-london {
+  background-image: url(https://github.com/designhawg/css-exercise-four/blob/master/images/london.png?raw=true);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.preview-madrid {
+  background-image: url(https://github.com/designhawg/css-exercise-four/blob/master/images/madrid.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.preview-rome {
+  background-image: url(https://github.com/designhawg/css-exercise-four/blob/master/images/rome.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 div {
   float: left;
   margin: 1% 0;
   width: 100%;
   padding: 20px 25px;
-}
-
-img {
-  height: 60%;
-  width: 100%;
-}
-
-img.baku {
-  width: 96%;
 }
 
 /* Media Querie for tablets and large smartphones */
